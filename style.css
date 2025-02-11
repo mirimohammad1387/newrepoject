@@ -1,0 +1,85 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+
+body{
+    font-family: "Agu Display", serif;    background-image: url(img/bg.jpg);
+    background-size: 100%;
+    /* font-family: Arial, sans-serif; */
+    padding: 20px
+}
+
+
+.inp-search {
+    width: 80%;
+    padding: 7px;
+    margin-bottom: 10px;
+    
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+         }
+         
+.bord{
+    border: 3px solid transparent;
+    border-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet) 1;
+    animation: borderAnimation 5s linear infinite;
+    border-radius: 10px;
+}         
+         
+
+.table { 
+    width: 100%;
+     margin-bottom: 1rem;
+      color: #212529; } 
+
+      
+.text-right{
+
+    text-align: right;
+    float: right;
+    
+}
+.mm-end{
+    margin-left: 75%;
+}
+.h-60{
+    height: 460px;
+}
+.h-30{
+    height: 270px;
+}
+.hide{
+    display: none;
+}
+.my-alerte{
+    right: 10px;
+    top: 10px;
+}
+/* استایل برای کل اسکرول‌بار */
+::-webkit-scrollbar {
+    width: 17px; /* عرض اسکرول‌بار */
+    height: 10px; /* ارتفاع اسکرول‌بار */
+}
+
+/* استایل برای بخش داخلی اسکرول‌بار */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(163, 163, 163); /* رنگ بخش داخلی */
+    border-radius: 10px; /* گوشه‌های گرد */ 
+}
+
+/* استایل برای زمانی که ماوس روی اسکرول‌بار قرار می‌گیرد */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(187, 187, 187); /* تغییر رنگ در حالت هاور */
+
+}
+
+/* استایل برای قسمت ریل اسکرول‌بار */
+::-webkit-scrollbar-track {
+    background-color:gray!important; /* رنگ پس‌زمینه ریل */
+    border: 2px solid black;
+    border-radius: 10px;
+        width: 2px;
+
+}
+.setdiv{
+    overflow-y: scroll;
+
+}
